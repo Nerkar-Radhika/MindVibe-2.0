@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+.env.*
+
+# Local virtual environments
+venv/
+.venv/
+
+# Local datasets and archives
+dataset/
+temp_tar/
+spectrograms.zip
+
+# MindVibe generated data
+metadata/selected_metadata.csv
+metadata/features_scaled.csv
+metadata/features_pca.csv
+metadata/pseudo_labels_guided.csv
+metadata/spectrogram_manifest.csv
+metadata/cnn_v2_test_predictions.csv
+spectrograms/
+
+.venv313/
+
+# Large generated feature files
+metadata/features.csv
+
+.venv-tf/
+.venv312/
